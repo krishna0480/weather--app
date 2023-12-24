@@ -1,0 +1,38 @@
+.container1{
+   
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background:linear-gradient(#00b4d8,#03045e);
+   
+    
+}
+.input{
+    margin: 0 5%;
+    padding: 5%;
+    text-align: center;
+    color: #fff;
+    background-image: url(/public/assets/geographic-stock-google-pixel-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    height:auto;
+}
+.input >h1{
+    font-family: sans-serif;
+}
+.input > img{
+    width: 15%;
+    padding:0 0 20px 0;
+}
+.input >form >  Button{
+     margin: 15px 0 ;
+}
+.input >form > input{
+    text-align: center;
+    border-radius: 15px;
+    padding: 0 10px;
+    border: none;
+ 
+}
